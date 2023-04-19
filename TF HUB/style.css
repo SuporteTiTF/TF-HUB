@@ -19,7 +19,7 @@
 }
 #image1{
     height: 1000px;
-    background-image: url('imagem1.jpg');
+    background-image: url('imagem12.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -30,6 +30,7 @@
 
 #text1{
     text-align: center;
+    color: white;
 
 }
 
@@ -48,7 +49,20 @@
 }
 
 #MENU{
-    margin-left: -14%;
+    margin-left: -18%;
+    margin-top: 50px;
+    margin-bottom: -28px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url(logomenu.jpg);
+    background-size: 100%;
+}
+
+#MENUTEXTO{
+    margin-left: -15%;
+    background-size: 100%;
+    font-size: 20px;
 }
 
 #ATF{
@@ -78,6 +92,53 @@
 
 #GIF{
 
+    background-image: url(TFGIF_AdobeExpress.gif);
+    background-size: 100%;
+    width: 1050px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    margin-right: 50%;
+    margin-left: 15%;
+}
+
+#FACEBOOK{
+    width: 100px;
+    height: 100px;
+    background-image: url('facebook.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+
+
+}
+
+#LINKFACEBOOK{
+    
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-top: -39px;
+    
+}
+
+#INSTAGRAM{
+    width: 100px;
+    height: 100px;
+    background-image: url('instagram.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+#LINKINSTAGRAM{
+    
+    background-repeat: no-repeat;
+    margin-left: 85%;
+    margin-top: -99px;
+
+    
 }
 .container{
     width: 960px;
