@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Trebuchet MS", Arial;
 }
 
-#oval{
+#oval {
     background-color: #2D2493;
     position: absolute;
     top: 50%;
@@ -17,38 +17,39 @@
 
 
 }
-#image1{
+
+#image1 {
     height: 1000px;
     background-image: url('imagem12.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     position: relative;
-    
+
 
 }
 
-#text1{
+#text1 {
     text-align: center;
     color: white;
 
 }
 
-#TF{
+#TF {
 
     margin-left: 5%;
 
 }
 
-#HUB{
+#HUB {
 
     margin-left: 7%;
     margin-bottom: 3%;
     margin-top: -22px;
-    
+
 }
 
-#MENU{
+#MENU {
     margin-left: -18%;
     margin-top: 50px;
     margin-bottom: -28px;
@@ -59,38 +60,38 @@
     background-size: 100%;
 }
 
-#MENUTEXTO{
+#MENUTEXTO {
     margin-left: -15%;
     background-size: 100%;
     font-size: 20px;
 }
 
-#ATF{
+#ATF {
     margin-left: 90px;
     margin-top: -22px;
 }
 
-#CLIENTES{
+#CLIENTES {
     margin-left: 25%;
     margin-top: -22px;
 }
 
-#CONTATO{
+#CONTATO {
     margin-left: 40%;
     margin-top: -22px;
 }
 
-#ENTRE{
+#ENTRE {
     margin-left: 55%;
     margin-top: -22px;
 }
 
-#CADASTRE{
+#CADASTRE {
     margin-left: 62%;
     margin-top: -22px;
 }
 
-#GIF{
+#GIF {
 
     background-image: url(TFGIF_AdobeExpress.gif);
     background-size: 100%;
@@ -101,50 +102,102 @@
     margin-left: 15%;
 }
 
-#FACEBOOK{
+#FACEBOOK {
     width: 100px;
     height: 100px;
     background-image: url('facebook.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 
 
 
 }
 
-#LINKFACEBOOK{
-    
+#LINKFACEBOOK {
+
     background-repeat: no-repeat;
-    margin-left: 80%;
+    margin-left: 79%;
     margin-top: -39px;
-    
+    margin-right: 50px;
+
+
 }
 
-#INSTAGRAM{
+#INSTAGRAM {
     width: 100px;
     height: 100px;
     background-image: url('instagram.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 
 
 }
 
-#LINKINSTAGRAM{
-    
+#LINKINSTAGRAM {
+
     background-repeat: no-repeat;
-    margin-left: 85%;
+    margin-left: 85.3%;
     margin-top: -99px;
+    margin-right: 50px;
 
-    
 }
-.container{
+
+#MI {
+
+
+    margin-top: -30%;
+    margin-left: -10%;
+    float: left;
+    font-size: 60px;
+}
+
+#MAIS {
+
+    margin-top: -33%;
+    margin-left: -17%;
+    float: left;
+    font-size: 90px;
+
+}
+
+#MAIS1 {
+
+    margin-top: -33%;
+    margin-left: 20%;
+    float: left;
+    font-size: 90px;
+
+}
+
+#text2 {
+    margin-top: -20%;
+    margin-left: -10%;
+    text-align: right;
+    float: left;
+    font-size: 30px;
+
+}
+
+#text3 {
+    margin-top: -17%;
+    margin-left: -15%;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+
+}
+
+.container {
     width: 960px;
     margin: auto;
 }
 
-.cortexto{
+.cortexto {
     color: #19277F;
+}
+
+.cormais {
+    color: #38B6FF;
 }
