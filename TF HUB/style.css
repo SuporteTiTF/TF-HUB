@@ -144,10 +144,59 @@
 
 }
 
+#Somos{
+     
+    margin-left: -10%;
+    margin-top: -40%;
+    float: left;
+    font-size: 22px;
+
+}
+
+#text8{
+
+    margin-left: -14%;
+    margin-top: -35%;
+    float: left;
+    font-size: 18px;
+    text-align:center;
+    
+
+}
+
+#text9{
+
+    margin-left: -14%;
+    margin-top: -20%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#text10{
+
+    margin-right: 20%;
+    margin-top: -35%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#text11{
+    margin-right: 17%;
+    margin-top: -29%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+}
+
+
 #MI {
 
 
-    margin-top: -37.3%;
+    margin-top: -16%;
     margin-left: -10%;
     float: left;
     font-size: 60px;
@@ -156,7 +205,7 @@
 #MI2 {
 
 
-    margin-top: -37.3%;
+    margin-top: -16%;
     margin-left: 32%;
     float: left;
     font-size: 60px;
@@ -165,7 +214,7 @@
 #MI3 {
 
 
-    margin-top: -37.3%;
+    margin-top: -16%;
     margin-left: 72%;
     float: left;
     font-size: 60px;
@@ -173,7 +222,7 @@
 
 #MAIS {
 
-    margin-top: -40%;
+    margin-top: -19%;
     margin-left: -17%;
     float: left;
     font-size: 90px;
@@ -182,7 +231,7 @@
 
 #MAIS1 {
 
-    margin-top: -40%;
+    margin-top: -19%;
     margin-left: 25%;
     float: left;
     font-size: 90px;
@@ -191,7 +240,7 @@
 
 #MAIS2 {
 
-    margin-top: -40%;
+    margin-top: -19%;
     margin-left: 66%;
     float: left;
     font-size: 90px;
@@ -199,7 +248,7 @@
 }
 
 #text2 {
-    margin-top: -28%;
+    margin-top: -8%;
     margin-left: -11%;
     text-align: right;
     float: left;
@@ -208,7 +257,7 @@
 }
 
 #text3 {
-    margin-top: -25%;
+    margin-top: -5%;
     margin-left: -15%;
     text-align: center;
     float: left;
@@ -217,7 +266,7 @@
 }
 
 #text4 {
-    margin-top: -28.5%;
+    margin-top: -8%;
     margin-left: 26%;
     text-align: center;
     float: left;
@@ -226,7 +275,7 @@
 }
 
 #text5 {
-    margin-top: -28.5%;
+    margin-top: -8%;
     margin-left: 70%;
     text-align: center;
     float: left;
@@ -235,12 +284,20 @@
 }
 
 #text6 {
-    margin-top: -25%;
+    margin-top: -5%;
     margin-left: 70%;
     text-align: center;
     float: left;
     font-size: 25px;
 
+}
+
+#text7{
+    margin-left: -18%;
+    margin-top: 12%;
+    float: left;
+    font-size: 25px;
+    
 }
 
 #Shein {
@@ -250,11 +307,10 @@
     background-image: url('Shein.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: -28%;
-    padding: auto;
-    padding-top: -10%;
-    margin-top: -20%;
-    
+    margin-left: -17%;
+    margin-top: 6%;
+    margin-bottom: -52%;
+
 
 }
 
@@ -265,8 +321,8 @@
     background-image: url('Shopee.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: -8%;
-    margin-top: -52%;
+    margin-left: 2%;
+    margin-top: -32%;
 
 }
 
@@ -277,7 +333,7 @@
     background-image: url('MercadoLivre.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: -52%;
 
 }
@@ -289,35 +345,77 @@
     background-image: url('Shopify.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left: 30%
-    margin-top: ;
+    margin-left: 40%;
+    margin-top: -10%;
+    margin-bottom: -30%;
 }
 
 #Aliexpress {
 
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     background-image: url('AliExpress.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-top: 10%;
+    margin-bottom: -30%;
 }
 
 #Tiktok {
 
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     background-image: url('TikTok.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-left: -17%;
+    margin-top: -15%;
 }
 
 #Wish {
 
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     background-image: url('Wish.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-top: -52%;
+}
+
+#J {
+
+    width: 500px;
+    height: 500px;
+    background-image: url('J.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-top: -52%;
+}
+
+#Viavarejo {
+
+    width: 500px;
+    height: 500px;
+    background-image: url('ViaVarejo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-top: -52%;
+
+}
+
+#Americanas {
+
+    width: 500px;
+    height: 500px;
+    background-image: url('Americanas.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-top: -52%;
 }
 
 .container {
