@@ -60,15 +60,35 @@
     background-size: 100%;
 }
 
+
 #MENUTEXTO {
     margin-left: -15%;
     background-size: 100%;
     font-size: 20px;
+    text-decoration:none;
 }
+
+#MENUTEXTO a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
+    
+}
+
 
 #ATF {
     margin-left: 90px;
     margin-top: -22px;
+}
+
+#ATF a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 #CLIENTES {
@@ -76,19 +96,58 @@
     margin-top: -22px;
 }
 
+#CLIENTES a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
+}
+
 #CONTATO {
+
     margin-left: 40%;
     margin-top: -22px;
+
+}
+
+#CONTATO a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 #ENTRE {
     margin-left: 55%;
     margin-top: -22px;
+    text-decoration: none;
 }
+
+#ENTRE a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
+    
+}
+
 
 #CADASTRE {
     margin-left: 62%;
     margin-top: -22px;
+    text-decoration: none;
+    
+}
+
+#CADASTRE a:hover{
+    text-decoration: none;
+    background-color:#19277F;
+    color: white;
+    border-radius: 3%;
+    padding: 10px;
 }
 
 #GIF {
