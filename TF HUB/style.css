@@ -38,7 +38,7 @@
 #TF {
 
     margin-left: -18%;
-    
+
 
 }
 
@@ -66,16 +66,16 @@
     margin-left: -15%;
     background-size: 100%;
     font-size: 20px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-#MENUTEXTO a:hover{
+#MENUTEXTO a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
-    
+
 }
 
 
@@ -84,9 +84,9 @@
     margin-top: -22px;
 }
 
-#ATF a:hover{
+#ATF a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
@@ -97,9 +97,9 @@
     margin-top: -22px;
 }
 
-#CLIENTES a:hover{
+#CLIENTES a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
@@ -112,9 +112,9 @@
 
 }
 
-#CONTATO a:hover{
+#CONTATO a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
@@ -126,13 +126,13 @@
     text-decoration: none;
 }
 
-#ENTRE a:hover{
+#ENTRE a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
-    
+
 }
 
 
@@ -140,12 +140,12 @@
     margin-left: 62%;
     margin-top: -22px;
     text-decoration: none;
-    
+
 }
 
-#CADASTRE a:hover{
+#CADASTRE a:hover {
     text-decoration: none;
-    background-color:#19277F;
+    background-color: #19277F;
     color: white;
     border-radius: 3%;
     padding: 10px;
@@ -160,7 +160,7 @@
     background-repeat: no-repeat;
     margin-right: 50%;
     margin-left: 15%;
-    
+
 }
 
 #FACEBOOK {
@@ -482,7 +482,7 @@
     margin-top: -52%;
 }
 
-#text12{
+#text12 {
     margin-top: -18%;
     margin-left: -18%;
     float: left;
@@ -490,31 +490,35 @@
     text-align: left;
 }
 
-#FaleConosco{
+#FaleConosco {
     clear: both;
     margin-left: -18%;
     font-size: 25px;
 }
 
-#Direitos{
+#Direitos {
     text-align: center;
 }
 
-#Camponome{
-    float: right;
+#Camponome {
+    
+
+
+}
+
+form input {
+    height: 30px;
+}
+
+#Campoemail {
     
 }
 
-#Campoemail{
-    float: right;
+#Campomsg {
 }
 
-#Campomsg{
-    float: right;
-}
-
-#botaoenviar{
-    float: right;
+#botaoenviar {
+    
 }
 
 .container {
