@@ -220,10 +220,18 @@
                <p>CONOSCO</p><br>
                <div id="FaleNome">
                   <form action="https://formsubmit.co/j.honatansl@outlook.com" method="POST">
-                     <input type="text" name="nome" id="nome" placeholder="NOME" required>
-                     <input type="text" name="email" id="email" placeholder="E-MAIL" required>
-                     <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
-                     <input type="submit" onclick="nomevalida()">
+                     <div id="Camponome">
+                        <input type="text" name="nome" id="nome" placeholder="NOME" required>
+                     </div>
+                     <div id="Campoemail">
+                        <input type="text" name="email" id="email" placeholder="E-MAIL" required>
+                     </div>
+                     <div id="Campomsg">
+                        <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
+                     </div>
+                     <div id="botaoenviar">
+                        <input type="submit" onclick="nomevalida()">
+                     </div>
                   </form>
                </div>
             </div>
