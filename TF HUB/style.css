@@ -500,6 +500,23 @@
     text-align: center;
 }
 
+#Camponome{
+    float: right;
+    
+}
+
+#Campoemail{
+    float: right;
+}
+
+#Campomsg{
+    float: right;
+}
+
+#botaoenviar{
+    float: right;
+}
+
 .container {
     width: 960px;
     margin: auto;
