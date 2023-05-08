@@ -159,7 +159,7 @@
     height: 1000px;
     background-repeat: no-repeat;
     margin-right: 50%;
-    margin-left: 15%;
+    margin-left: -15%;
 
 }
 
@@ -522,7 +522,8 @@ form input {
 }
 
 .container {
-    width: 960px;
+    min-width: 280px;
+    max-width: 960px;
     margin: auto;
 }
 
