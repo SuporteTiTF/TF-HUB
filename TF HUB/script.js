@@ -19,6 +19,29 @@ function nomevalida(){
 
 //https://www.youtube.com/watch?v=2umsItNQ9mI
 //https://formsubmit.co/
+//https://www.youtube.com/watch?v=5MzqxhY_pzs&list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs&index=4
+//https://www.youtube.com/watch?v=Fi9YO2KGJ5s&list=PLOUrDmh7c7mXzsyLWxnGiwSIySnee3gEk
+//https://www.youtube.com/watch?v=-x5hFlP9o_8&list=PLOUrDmh7c7mX8rIb1k-V8sCrzkWe56MGa
+//https://www.youtube.com/watch?v=Hwa_U7_-wE0&list=PLOUrDmh7c7mWsioS2HzN2w3tCMX67RJED
+//https://www.youtube.com/watch?v=lzF9h3M4BCA&list=PLOUrDmh7c7mUeyFqReZ5iP4NB2P7NMomV
+//https://www.youtube.com/watch?v=LqqxZOec6HE
+//https://www.youtube.com/watch?v=ZPBjmbu5rd4
+//https://www.youtube.com/watch?v=qxwqDcGHB50
+//https://www.youtube.com/watch?v=Pjb-66eTrik
+//https://www.youtube.com/watch?v=o8s0AHJ6TTk
+//https://www.youtube.com/watch?v=SQR7dlTDauc
+//https://www.youtube.com/watch?v=TrfhQwSYCEk
+// parei nesse - https://www.youtube.com/watch?v=TVEyr-TVW4U&list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs&index=5
+
+//paletas
+//#BCCFDE
+//#476C9B
+//#476C9B
+//#476C9B
+//#F3DE8A
+//https://coolors.co/000000-bccfde-476c9b-dbfeb8-f3de8a
+
+
 
 // 20.000
 //108,81 - https://shopee.com.br/Carregador-Port%C3%A1til-Power-Bank-R%C3%A1pido-20000mah-2-Sa%C3%ADdas-i.410522123.19831543849?sp_atk=9b6b8f8a-1837-4671-a5ad-b04184dfb942&xptdk=9b6b8f8a-1837-4671-a5ad-b04184dfb942
