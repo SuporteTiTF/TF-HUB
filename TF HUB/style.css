@@ -54,7 +54,7 @@ header {
     background-size: 100%;
     justify-content: space-between;
     display: flex;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 400px);
     
     
     
@@ -76,8 +76,48 @@ header {
     margin: auto;
     text-align: center;
     color: white;
-    margin-top: 20%;
+    margin-top: 10%;
     
+}
+
+.Sobre2{
+    justify-content: space-between;
+    display: flex;
+    height: calc(100vh - 400px);
+
+}
+
+.Sobre2 .Somos3{
+    justify-content: space-around;
+    display:contents;
+}
+
+.Sobre2 .Somos3 ul{
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+
+}
+
+.Sobre2 .Somos3 li{
+    font-size: 4.2rem;
+    text-align: center;
+    color: #19277F;
+}
+
+.Sobre2 .Somos3 li svg{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #38B6FF;
+}
+
+.Sobre2 .Somos3 .text{
+    font-size: 20px;
+    text-align: center;
+    color: #38B6FF;
 }
 
 /*RESPONSIVIDADE*/
@@ -134,6 +174,22 @@ header {
 
         height: calc(100vh - 150px);
         
+    }
+
+    .Somos{
+        font-size: 12px;
+    }
+
+    .Somos2{
+        font-size: 12px;
+    }
+
+    .Somos h1{
+        font-size: 12px;
+    }
+
+    .Sobre2 .Somos3 ul li{
+        font-size: 25px;
     }
 
     
