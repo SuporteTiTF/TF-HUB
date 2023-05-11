@@ -31,8 +31,7 @@ function nomevalida(){
 //https://www.youtube.com/watch?v=o8s0AHJ6TTk
 //https://www.youtube.com/watch?v=SQR7dlTDauc
 //https://www.youtube.com/watch?v=TrfhQwSYCEk
-// parei nesse - https://www.youtube.com/watch?v=TVEyr-TVW4U&list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs&index=5
-
+// parei nesse - https://www.youtube.com/watch?v=GS5Q_XxsIR4&list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs&index=7
 //paletas
 //#BCCFDE
 //#476C9B
@@ -40,6 +39,8 @@ function nomevalida(){
 //#476C9B
 //#F3DE8A
 //https://coolors.co/000000-bccfde-476c9b-dbfeb8-f3de8a
+//https://feathericons.com/
+//https://unsplash.com/pt-br/fotografias/DJ7bWa-Gwks
 
 
 
