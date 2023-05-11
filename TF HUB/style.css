@@ -48,6 +48,38 @@ header {
     font-weight: normal;
 }
 
+.Sobre{
+    background: url(somos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: calc(100vh - 150px);
+    
+    
+    
+    
+    
+}
+
+.Sobre .Somos{
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    
+    
+    
+}
+
+.Sobre .Somos2{
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    
+}
+
 /*RESPONSIVIDADE*/
 
 /* Landscape phone to portrait tablet*/
@@ -59,11 +91,13 @@ header {
 }
 
 /* Landscape phones and down*/
-@media (max-width: 480px) {
+@media (max-width: 550px) {
 
     body {
         height: calc(100vh - 55px);
     }
+
+    
 
     header nav ul {
         position: fixed;
@@ -72,6 +106,7 @@ header {
         width: 100%;
         padding: 0;
         margin: 0;
+        
 
         background: #BCCFDE;
         color: black;
@@ -95,15 +130,37 @@ header {
         text-align: center;
     }
 
+    section .Sobre{
+
+        height: calc(100vh - 150px);
+        
+    }
+
+    
+
+    
+
+
+    
 }
 
 
 
-/* Portrait tablet to landscape and desktop
+
+
+/* Portrait tablet to landscape and desktop*/
 @media (max-width: 768px) and (max-width: 979px) {
+
+    header{
+        background: url(TALK---VERTICAL.gif);
+        height: calc(100vh - 150px);
+        background: no-repeat center/cover url(TALK---VERTICAL.gif);
+    }
+
+
     
 
-}*/
+}
 
 /* Large desktop
 @media (min-width: 1200px) {
