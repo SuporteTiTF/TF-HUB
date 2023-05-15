@@ -230,12 +230,6 @@ header {
 
 }
 
-.FaleNome{
-    margin: auto;
-    height: calc(100vh - 700px);
-    
-}
-
 .FaleConosco{
     margin: auto;
     text-align: center;
