@@ -10,7 +10,7 @@ body {
 
 
     font-family: 'Montserrat', sans-serif;
-    width: 100vw;
+
 
 
 
@@ -56,10 +56,6 @@ header {
     display: flex;
     height: calc(100vh - 500px);
 
-
-
-
-
 }
 
 .Sobre .Somos {
@@ -68,9 +64,6 @@ header {
     color: #000000;
     margin-top: 5%;
     text-shadow: 10px 10px 20px #000000;
-
-
-
 
 }
 
@@ -122,30 +115,144 @@ header {
 
 .Parcerias {
     /*background: purple;*/
-    height: 500px;
-    text-align: center;
+    /*height: 500px;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
 
+
+}
+
+.Nossos2 {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
 }
 
 .Parcerias .Nossos1 {
+    /*margin-top: 5%;
     background: purple;
-    width: 666px;
-    height: 375px;
-    
-    
+    width: 366px;
+    height: 225px;
+    margin: auto;*/
     
     
 
 }
 
-.Parcerias .Shein{
-    width: 666px;
-    height: 375px;
+.Parcerias .Shein {
+    width: 366px;
+    height: 225px;
     margin: auto;
-    background: green;
-
+    
+    
     
 }
+
+.Parcerias2 {
+    /*background: purple;*/
+    /*height: 500px;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.Parcerias2 .Nossos3 {
+    /*background: purple;
+    width: 366px;
+    height: 225px;
+    margin: auto;*/
+    
+    
+
+}
+
+.Parcerias2 .Shein2 {
+    width: 366px;
+    height: 225px;
+    margin: auto;
+    
+    
+}
+
+.Parcerias3{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Parcerias3 .Shein3 {
+    width: 366px;
+    height: 225px;
+    margin: auto;
+    
+    
+}
+
+.Clientes {
+    background: url(Clientes.jpg---teste-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    height: calc(100vh - 300px);
+
+}
+
+.Clientes .Clientestext {
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    text-shadow: 10px 10px 20px #000000;
+
+}
+
+.Contato {
+    background: url(Clientes.jpg---teste-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    height: calc(100vh - 300px);
+
+}
+
+.Contato .Contatotext {
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    text-shadow: 10px 10px 20px #000000;
+
+}
+
+.FaleNome{
+    margin: auto;
+    height: calc(100vh - 700px);
+    
+}
+
+.FaleConosco{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.Rodape{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 /*RESPONSIVIDADE*/
@@ -229,6 +336,15 @@ header {
         font-size: 12px;
     }
 
+    .Nossos2{
+        font-size: 12px;
+        margin-right: 5%;
+    }
+
+    
+
+
+
 
 }
 
@@ -243,7 +359,7 @@ header {
     .Sobre2 {
 
         height: calc(100vh - 150px);
-
+       
     }
 }
 
@@ -287,11 +403,15 @@ header {
 
     .Sobre2 {
 
-        height: calc(100vh - 500px);
+        height: calc(100vh - 550px);
 
     }
 
+   
+
 }
+
+
 
 /* Portrait tablet to landscape and desktop*/
 @media (max-width: 768px) and (max-width: 979px) {
