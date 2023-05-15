@@ -2,101 +2,85 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf=8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TF HUB</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--<script language="javascript" src="script.js"></script>-->
 </head>
 
 <body>
-
-    <!--Cabeçalho-->
     <header>
-        <div class="container">
-            <div class="cortexto">
-                <div id="TF">
-                    <h3>TF</h3>
-                </div>
+        <nav>
+            <div id="TF">
+                <h3>TF</h3>
+
                 <div id="HUB">
                     <h3>HUB</h3>
                 </div>
             </div>
+            <ul>
+                <li><a href="https://www.tferp.com.br/">MENU</a></li>
+                <li><a href="Sobre.html">A TF HUB</a></li>
+                <li><a href="Clientes.html">CLIENTES</a></li>
+                <li><a href="Contato.html">CONTATO</a></li>
+                <li><a href="https://v3.tferp.com.br/login" target="_blank">ENTRE</a>
+                </li>
+                <li><a href="https://v3.tferp.com.br/register" target="_blank">CADASTRE-SE</a></li>
+            </ul>
 
-            <div id="MENU">
-
-            </div>
-            <div id="MENUTEXTO">
-                <h3><a href="https://www.tferp.com.br/">MENU</a></h3>
-            </div>
-            <div id="ATF">
-                <h3><a href="Sobre.html">A TF HUB</a></h3>
-            </div>
-            <div id="CLIENTES">
-                <h3><a href="Clientes.html">CLIENTES</a></h3>
-            </div>
-            <div id="CONTATO">
-                <h3><a href="Contato.html">CONTATO</a></h3>
-            </div>
-            <div id="ENTRE">
-                <h3><a href="https://www.tferp.com.br/home/international/tf_home/login.aspx" target="_blank">ENTRE</a>|
-                </h3>
-            </div>
-            <div id="CADASTRE">
-                <h3><a href="https://www.tferp.com.br/" target="_blank">CADASTRE-SE</a></h3>
-            </div>
-            <div id="LINKFACEBOOK">
-                <a href="https://www.facebook.com/profile.php?id=100087177852263" target="_blank">
-                    <div id="FACEBOOK"></div>
-                </a>
+        </nav>
+        <!--<picture>
+                <source media="(max-width: 800px)" srcset="TALK---VERTICAL.gif">
+                <img src="TALK.gif" alt="GIF">
+            </picture>-->
 
 
-            </div>
-            <div id="LINKINSTAGRAM">
-                <a href="https://instagram.com/tfsoftware?igshid=YmMyMTA2M2Y=" target="_blank">
-                    <div id="INSTAGRAM"></div>
-                </a>
-
-
-            </div>
-        </div>
-        <!--Rodapé-->
     </header>
-    <article>
+    <section class="Contato">
 
-        <div id="GIF">
-            <!--<video width="1600" height="600" controls="controls" autoplay="autoplay" 
-        <source src="TFGIF.mp4" type="video/mp4">
-        <object data="" width="320" height="240">
-        <embed width="1600" height="600" src="TFGIF.mp4">
-        </object>
+
+        <div class="Contatotext">
+
+            <h1>FALE CONOSCO</h1>
+            <br>
+            <div class="FaleConosco">
+                <form action="https://formsubmit.co/bageacademybr@gmail.com" method="POST">
+                   <div id="Camponome">
+                      <input type="text" name="nome" id="nome" placeholder="NOME" required>
+                   </div>
+                   <div id="Campoemail">
+                      <input type="text" name="email" id="email" placeholder="E-MAIL" required>
+                   </div>
+                   <div id="Campomsg">
+                      <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
+                   </div>
+                   <div id="botaoenviar">
+                      <input type="submit" onclick="nomevalida()">
+                   </div>
+                </form>
+            </div>
+        </div>
         
-        </video>-->
 
-        </div>
+    </section>
 
-    </article>
-
-    <footer>
-        <div class="container">
-            <div id="FaleConosco">
-                <p>FALE</p>
-                <div class="cortexto">
-                    <p>CONOSCO</p><br>
-                </div>
-                <p>TF HUB</p><br>
-                <p>R. Quintana, 887-12°<br>(11) 9999-9999 - São Paulo - BRASIL<br>contato@tfhub.com.br</p>
-            </div>
-            <div id="Direitos">
-                <p>TF HUB - Todos os direitos reservados</p>
-            </div>
-        </div>
-
+    <footer class="Rodape">
+        <p>TF HUB</p><br>
+        <p>R. Quintana, 887-12°<br>(11) 95393-0521 - São Paulo - BRASIL<br>contato@tfhub.com.br</p>
+        <p>TF HUB - Todos os direitos reservados</p>
     </footer>
 
 
-    </div>
+
+
+
+
+
+    <script>
+        feather.replace()
+    </script>
 </body>
-
-
 
 </html>
