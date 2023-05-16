@@ -49,7 +49,7 @@ header {
 }
 
 .Sobre {
-    background: url(somos-2.jpg);
+    background: url(Assets/somos.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     justify-content: space-between;
@@ -119,9 +119,9 @@ header {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    
-    
-    
+
+
+
 
 
 }
@@ -138,8 +138,8 @@ header {
     width: 366px;
     height: 225px;
     margin: auto;*/
-    
-    
+
+
 
 }
 
@@ -147,9 +147,9 @@ header {
     width: 366px;
     height: 225px;
     margin: auto;
-    
-    
-    
+
+
+
 }
 
 .Parcerias2 {
@@ -158,7 +158,7 @@ header {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    
+
 
 }
 
@@ -167,8 +167,8 @@ header {
     width: 366px;
     height: 225px;
     margin: auto;*/
-    
-    
+
+
 
 }
 
@@ -176,11 +176,11 @@ header {
     width: 366px;
     height: 225px;
     margin: auto;
-    
-    
+
+
 }
 
-.Parcerias3{
+.Parcerias3 {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -190,12 +190,12 @@ header {
     width: 366px;
     height: 225px;
     margin: auto;
-    
-    
+
+
 }
 
 .Clientes {
-    background: url(Clientes.jpg---teste-2.jpg);
+    background: url(Assets/CLIENTES.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -213,7 +213,7 @@ header {
 }
 
 .Contato {
-    background: url(Clientes.jpg---teste-2.jpg);
+    background: url(Assets/contato.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -230,13 +230,20 @@ header {
 
 }
 
-.FaleConosco{
+.FaleConosco {
     margin: auto;
     text-align: center;
-    
+
 }
 
-.Rodape{
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.Rodape {
     text-align: center;
 }
 
@@ -330,12 +337,12 @@ header {
         font-size: 12px;
     }
 
-    .Nossos2{
+    .Nossos2 {
         font-size: 12px;
         margin-right: 5%;
     }
 
-    
+
 
 
 
@@ -353,7 +360,7 @@ header {
     .Sobre2 {
 
         height: calc(100vh - 150px);
-       
+
     }
 }
 
@@ -401,7 +408,7 @@ header {
 
     }
 
-   
+
 
 }
 
