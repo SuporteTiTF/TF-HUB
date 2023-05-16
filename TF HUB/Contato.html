@@ -28,6 +28,10 @@
                 <li><a href="https://v3.tferp.com.br/login" target="_blank">ENTRE</a>
                 </li>
                 <li><a href="https://v3.tferp.com.br/register" target="_blank">CADASTRE-SE</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100087177852263" target="_blank"><i
+                            data-feather="facebook"></i></a></li>
+                <li><a href="https://instagram.com/tfsoftware?igshid=YmMyMTA2M2Y=" target="_blank"><i
+                            data-feather="instagram"></i></a></li>
             </ul>
 
         </nav>
@@ -43,33 +47,38 @@
 
         <div class="Contatotext">
 
-            <h1>FALE CONOSCO</h1>
+            <h1>FALE CONOSCO</h1><br>
+            <p>TF HUB</p><br>
+            <p>R. Quintana, 887-12°<br>(11) 95393-0521 - São Paulo - BRASIL<br>contato@tfhub.com.br</p>
             <br>
             <div class="FaleConosco">
                 <form action="https://formsubmit.co/bageacademybr@gmail.com" method="POST">
-                   <div id="Camponome">
-                      <input type="text" name="nome" id="nome" placeholder="NOME" required>
-                   </div>
-                   <div id="Campoemail">
-                      <input type="text" name="email" id="email" placeholder="E-MAIL" required>
-                   </div>
-                   <div id="Campomsg">
-                      <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
-                   </div>
-                   <div id="botaoenviar">
-                      <input type="submit" onclick="nomevalida()">
-                   </div>
+                    <div id="Camponome">
+                        <input type="text" name="nome" id="nome" placeholder="NOME" required>
+                    </div>
+                    <div id="Campoemail">
+                        <input type="text" name="email" id="email" placeholder="E-MAIL" required>
+                    </div>
+                    <div id="Campomsg">
+                        <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
+                    </div>
+                    <div id="botaoenviar">
+                        <input type="submit" onclick="nomevalida()">
+                    </div>
                 </form>
             </div>
-        </div>
-        
 
+        </div>
+
+
+    </section>
+    <section class="Contatomapa">
+        <div id="map"></div>
     </section>
 
     <footer class="Rodape">
-        <p>TF HUB</p><br>
-        <p>R. Quintana, 887-12°<br>(11) 95393-0521 - São Paulo - BRASIL<br>contato@tfhub.com.br</p>
         <p>TF HUB - Todos os direitos reservados</p>
+
     </footer>
 
 
@@ -79,7 +88,24 @@
 
 
     <script>
-        feather.replace()
+        feather.replace();
+
+        function initMap() {
+            // The location of Uluru
+            const brazil = { lat: -23.602688, lng: -46.692687 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: brazil,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: brazil,
+                map: map,
+            });
+        }
+    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDovu8ydfIRzltf6cWoEdgh3ngfdvRXECA&callback=initMap">
     </script>
 </body>
 
