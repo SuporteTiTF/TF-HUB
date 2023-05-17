@@ -329,18 +329,6 @@ form input {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*RESPONSIVIDADE*/
 
 /* Landscape phone to portrait tablet*/
@@ -594,9 +582,11 @@ form input {
 
     }
 
-    
+    .Contato {
 
+        height: calc(100vh - 150px);
 
+    }
 
 }
 
