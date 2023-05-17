@@ -568,10 +568,24 @@ form input {
 
 }
 
-/* Large desktop
-@media (min-width: 1200px) {
+/*Large desktop*/
+@media (min-width: 1366px) {
 
-}*/
+    .Sobre{
+
+        height: calc(100vh - 250px);
+
+    }
+
+    .Sobre2{
+
+        height: calc(100vh - 450px);
+
+    }
+
+
+
+}
 
 
 #image1 {
