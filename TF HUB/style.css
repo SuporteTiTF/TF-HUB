@@ -19,6 +19,8 @@ body {
 header nav ul {
     list-style: none;
     display: flex;
+    
+
 
 }
 
@@ -31,11 +33,24 @@ header nav {
     display: flex;
     justify-content: space-between;
     margin: auto 30px;
+    padding: 10px 0;
+    
 }
 
 header {
     height: calc(100vh - 150px);
     background: no-repeat center/cover url(TALK.gif);
+    
+
+}
+
+header nav a:hover {
+    text-decoration: none;
+    background-color: #19277F;
+    color: white;
+    border-radius: 10%;
+    padding: 15px;
+    display: block;
 
 }
 
@@ -243,9 +258,55 @@ header {
     /* The width is the width of the web page */
 }
 
+.Contatomapa {
+    padding: 60px 20%;
+    background: #BCCFDE;
+}
+
 .Rodape {
     text-align: center;
 }
+
+
+
+#Camponome .Nome {
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+#Campoemail .Email{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 3%;
+
+}
+
+
+#Campomsg .Msg{
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+#botaoenviar .Enviar{
+    margin-top: 5%;
+}
+
+form input {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
 
 
 
@@ -899,18 +960,6 @@ header {
 #Direitos {
     text-align: center;
 }
-
-#Camponome {}
-
-form input {
-    height: 30px;
-}
-
-#Campoemail {}
-
-#Campomsg {}
-
-#botaoenviar {}
 
 .container {
     min-width: 280px;
