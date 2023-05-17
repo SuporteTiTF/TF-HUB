@@ -9,7 +9,7 @@ function nomevalida(){
     else if (email.value == ""){
 		alert("O campo email não pode estar em branco.");
 	}
-	else if(email.value == "@"){
+	else if (email.value == "@"){
 		alert("Envie um email correto.");
 	}
     else if (mensagem.value == ""){
