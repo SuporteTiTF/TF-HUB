@@ -21,7 +21,7 @@
                 </div>
             </div>
             <ul>
-                <li><a href="https://www.tferp.com.br/">MENU</a></li>
+                <li><a href="Pagina.html">MENU</a></li>
                 <li><a href="Sobre.html">A TF HUB</a></li>
                 <li><a href="Clientes.html">CLIENTES</a></li>
                 <li><a href="Contato.html">CONTATO</a></li>
@@ -54,17 +54,21 @@
             <div class="FaleConosco">
                 <form action="https://formsubmit.co/bageacademybr@gmail.com" method="POST">
                     <div id="Camponome">
-                        <input type="text" name="nome" id="nome" placeholder="NOME" required>
+                        <input class="Nome "type="text" name="nome" id="nome" placeholder="NOME" required>
                     </div>
                     <div id="Campoemail">
-                        <input type="text" name="email" id="email" placeholder="E-MAIL" required>
+                        <input class="Email "type="text" name="email" id="email" placeholder="E-MAIL" required>
                     </div>
                     <div id="Campomsg">
-                        <input type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
+                        <input class="Msg" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" required>
                     </div>
                     <div id="botaoenviar">
-                        <input type="submit" onclick="nomevalida()">
+                        <input class="Enviar" type="submit" onclick="nomevalida()">
                     </div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/TF%20HUB/Pagina.html">
+                    
+
+
                 </form>
             </div>
 
@@ -105,7 +109,7 @@
             });
         }
     </script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDovu8ydfIRzltf6cWoEdgh3ngfdvRXECA&callback=initMap">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
     </script>
 </body>
 
