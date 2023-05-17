@@ -19,7 +19,7 @@ body {
 header nav ul {
     list-style: none;
     display: flex;
-    
+
 
 
 
@@ -56,21 +56,21 @@ header nav a:hover {
 
 }
 
-header nav ul .Drop:hover{
+header nav ul .Drop:hover {
     position: relative;
 }
 
-header nav ul .Drop ul:hover li{
+header nav ul .Drop ul:hover li {
     position: absolute;
     display: block;
-    
+
 }
 
-header nav ul .Drop ul li{
+header nav ul .Drop ul li {
     position: absolute;
     display: none;
-    
-    
+
+
 }
 
 
@@ -277,14 +277,14 @@ header nav ul .Drop ul li{
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
-    
+
 }
 
 .Contatomapa {
     padding: 60px 20%;
     background: #BCCFDE;
-    
-    
+
+
 }
 
 .Rodape {
@@ -571,17 +571,30 @@ form input {
 /*Large desktop*/
 @media (min-width: 1366px) {
 
-    .Sobre{
+    .Sobre {
 
         height: calc(100vh - 250px);
 
     }
 
-    .Sobre2{
+    .Sobre2 {
 
         height: calc(100vh - 450px);
+        margin-right: 5%;
+
 
     }
+
+    .Sobre2 .Somos3 {
+        text-align: center;
+    }
+
+    .Nossos2 {
+        margin-right: 2%;
+
+    }
+
+    
 
 
 
