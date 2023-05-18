@@ -132,6 +132,7 @@ header nav li a{
 .Sobre2 {
     justify-content: space-around;
     display: flex;
+    padding: 100px 0 0 0;
     height: calc(100vh - 700px);
 
 }
@@ -251,20 +252,40 @@ header nav li a{
     background: url(Assets/CLIENTES.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    justify-content: space-between;
     display: flex;
-    height: calc(100vh - 500px);
+    height: calc(100vh - 200px);
 
 }
 
 .Clientes .Clientestext {
     margin: auto;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
     color: #000000;
     margin-top: 5%;
     text-shadow: 10px 10px 20px #000000;
 
 }
+
+.Clientes .Clientestext2 {
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+
+    color: #000000;
+    margin-top: 20%;
+    text-shadow: 10px 10px 15px #000000;
+
+}
+
+.Clientes .Clientestext2 svg{
+    width: 60px;
+    height: 60px;
+
+}
+
 
 .Contato {
     background: url(Assets/contato.jpg);
