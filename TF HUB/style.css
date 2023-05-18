@@ -46,32 +46,47 @@ header {
 }
 
 header nav a:hover {
-    text-decoration: none;
     background-color: #19277F;
     color: white;
     border-radius: 10%;
     padding: 15px;
     display: contents;
 
-
 }
 
-header nav ul .Drop:hover {
-    position: relative;
+header nav li a{
+    text-decoration: none;
+    display: inline-block;
+    
 }
 
-header nav ul .Drop ul:hover li {
-    position: absolute;
-    display: block;
-
-}
-
-header nav ul .Drop ul li {
+.dropdown-menu{
+    padding: 10px 0;
+    color: white;
     position: absolute;
     display: none;
-
+    
+}
+.dropdown-menu a{
+    display: block;
+    color:#19277F;
 
 }
+
+.dropdown:hover .dropdown-menu{
+
+    display: block;
+    
+}
+
+.dropdown-menu a:hover{
+    background: #19277F;
+}
+
+
+
+
+
 
 
 
