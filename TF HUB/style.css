@@ -94,6 +94,11 @@ header nav li a{
 
 #TF {
     font-weight: bold;
+    background: url(LOGO.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
 
 }
 
